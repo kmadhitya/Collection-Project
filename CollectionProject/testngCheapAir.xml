@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" verbose = "2">
   <test thread-count="5" name="Test">
   <parameter name = "url" value = "https://www.cheapair.com/"></parameter>
     <classes>
     
-      <class name="com.proj.collectionproject.IterateSample"/>
-      <class name="com.proj.collectionproject.MyOwnComparator"/>
+      <class name="testcases.bookflight.BookFlightTicket"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

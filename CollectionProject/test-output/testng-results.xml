@@ -2,24 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34416" started-at="2019-12-19T03:35:30Z" finished-at="2019-12-19T03:36:05Z">
+  <suite name="Suite" duration-ms="13790" started-at="2019-12-20T03:51:16Z" finished-at="2019-12-20T03:51:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34416" started-at="2019-12-19T03:35:30Z" finished-at="2019-12-19T03:36:05Z">
+    <test name="Test" duration-ms="13790" started-at="2019-12-20T03:51:16Z" finished-at="2019-12-20T03:51:29Z">
       <class name="testcases.bookflight.BookFlightTicket">
-        <test-method status="PASS" signature="launchTheApplication()[pri:0, instance:testcases.bookflight.BookFlightTicket@8080bb]" name="launchTheApplication" is-config="true" duration-ms="31509" started-at="2019-12-19T03:35:30Z" finished-at="2019-12-19T03:36:02Z">
+        <test-method status="PASS" signature="launchTheApplication(java.lang.String)[pri:0, instance:testcases.bookflight.BookFlightTicket@b0338]" name="launchTheApplication" is-config="true" duration-ms="10582" started-at="2019-12-20T03:51:16Z" finished-at="2019-12-20T03:51:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.cheapair.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTheApplication -->
-        <test-method status="PASS" signature="bookFlightBetweenMadrasToCoimbatore()[pri:0, instance:testcases.bookflight.BookFlightTicket@8080bb]" name="bookFlightBetweenMadrasToCoimbatore" duration-ms="2544" started-at="2019-12-19T03:36:02Z" finished-at="2019-12-19T03:36:04Z">
+        <test-method status="PASS" signature="bookFlightBetweenMadrasToCoimbatore()[pri:0, instance:testcases.bookflight.BookFlightTicket@b0338]" name="bookFlightBetweenMadrasToCoimbatore" duration-ms="2946" started-at="2019-12-20T03:51:26Z" finished-at="2019-12-20T03:51:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlightBetweenMadrasToCoimbatore -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.bookflight.BookFlightTicket@8080bb]" name="closeBrowser" is-config="true" duration-ms="336" started-at="2019-12-19T03:36:04Z" finished-at="2019-12-19T03:36:05Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.bookflight.BookFlightTicket@b0338]" name="closeBrowser" is-config="true" duration-ms="239" started-at="2019-12-20T03:51:29Z" finished-at="2019-12-20T03:51:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testcases.bookflight.BookFlightTicket -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
